@@ -1,0 +1,55 @@
+.content {
+  color: #9C7735;
+  margin-top: 55px;
+  padding: 20px;
+}
+
+.content > h1 {
+  text-transform: uppercase;
+  font-size: 40;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+
+.content > h2 {
+  font-weight: 100;
+  color: rgb(34, 34, 34);
+  margin-top: 7px;
+}
+
+.content > h3 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 17;
+}
+
+.content > h4 {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: rgb(34, 34, 34);
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.content > .location-dates {
+  display: grid;
+  grid-template-columns: 150px auto;
+  color: rgb(158, 158, 158);
+}
+
+.content .dates {
+  text-align: right;
+}
+
+.content h5 {
+  margin: 4px 0;
+}
+
+.content > p {
+  color: rgb(34, 34, 34);
+}
+
+.content > ul {
+  color: rgb(34, 34, 34);
+}
