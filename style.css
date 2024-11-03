@@ -10,6 +10,10 @@ body {
   line-height: 1.6;
 }
 
+.spacer {
+  margin-bottom: 25px;
+}
+
 .skills-section {
   margin: 2rem 0;
 }
