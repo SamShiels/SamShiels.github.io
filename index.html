@@ -29,56 +29,43 @@
       <h2>Software Engineer</h2>
 
       <h3>Profile</h3>
-      <p>Full-stack Software Engineer with 6 years of experience spanning enterprise React/TypeScript frontends and .NET backends. 
-         Unique expertise in video game development and graphics programming has instilled a deep understanding of performance optimization.
-         Proven track record of delivering high-performance solutions, from real-time WebGL rendering to scalable enterprise applications.
-         Passionate about efficient problem-solving.</p>
+      <p>Full-stack engineer (React/TypeScript, .NET/C#) with 7+ years. Game/graphics background gives strong performance instincts—shipped real-time UIs and 10x speed-ups. Recently built an AI document-intelligence tool that extracts entities & relationships and renders them as diagrams.</p>
 
       <div class="skills-section">
-        <h3>Technical Skills</h3>
-        <div class="skills-grid">
-          <div class="skill-category">
-              <h4>Frontend</h4>
-              <ul>
-                  <li>React</li>
-                  <li>TypeScript</li>
-                  <li>VueJS</li>
-                  <li>NPM</li>
-                  <li>Yarn</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h4>Backend</h4>
-              <ul>
-                  <li>C#</li>
-                  <li>.NET</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-            <h4>DevOps</h4>
-            <ul>
-                <li>Docker</li>
-                <li>CI/CD (GitHub Actions)</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-              <h4>Graphics & Game Dev</h4>
-              <ul>
-                  <li>OpenGL</li>
-                  <li>Unity</li>
-                  <li>WebGL</li>
-              </ul>
-          </div>
-          <div class="skill-category">
-              <h4>Familiar With</h4>
-              <ul>
-                  <li>Go</li>
-                  <li>Rust</li>
-                  <li>Python</li>
-                  <li>WebGPU</li>
-              </ul>
-          </div>
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li><strong>Frontend:</strong> React, TypeScript, Webpack, Vite, Tailwind/shadcn, Storybook, Testing Library/Jest, WebGL/WebGPU</li>
+          <li><strong>Backend & APIs:</strong> C#, .NET (ASP.NET Core), Go, REST, EF</li>
+          <li><strong>Cloud/DevOps:</strong> Docker, GitHub Actions, Azure, Firebase/Auth/Firestore</li>
+          <li><strong>Tooling:</strong> Node.js, npm, Yarn, ESLint, Prettier</li>
+          <li><strong>Working knowledge:</strong> Rust, Python, Vue.js, Electron, SQL (Postgres/SQL Server)</li>
+        </ul>
+      </div>
+
+      <h3>Projects</h3>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="company">Flewnt — AI Document Intelligence (Founder/Engineer)</div>
+          <div class="dates">2023 - Present</div>
         </div>
+        <p>Uses AI/LLMs to extract <strong>entities</strong> and <strong>relationships</strong> from documents — including voice dictation — and turn them into structured data and diagrams</p>
+        <ul>
+          <li>Displays the resulting diagrams using my custom diagram layout engine</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="company">Graph Layout Engine (Author)</div>
+          <div class="dates">2023 - Present</div>
+        </div>
+        <p>TypeScript engine for clean, layered diagram layouts; powers Flewnt's diagrams</p>
+        <ul>
+          <li>Built for large graphs; simple React canvas integration</li>
+          <li>Layouts and renders ~1,000 nodes / ~2,000 edges in ~50 ms on a MacBook Air M3</li>
+        </ul>
+        <p class="tech"><em>Tech:</em> TypeScript, React, Canvas</p>
       </div>
 
       <h3>Experience</h3>
@@ -89,7 +76,7 @@
           <div class="dates">June 2022 - Current</div>
         </div>
         <div class="location">Cape Town, South Africa</div>
-        <p>Worked on maintaining and developing new features for a React-based knowledge management system used by a large tech firm.</p>
+        <p>Worked on maintaining and developing new features for a React-based knowledge management system used by a large tech firm</p>
         <ul>
           <li>Developed a real-time editor feature to allow in-browser content modification</li>
           <li>Modernized the codebase and streamlined package management</li>
@@ -102,7 +89,7 @@
         <p>Enterprise solution for software architecture mapping:</p>
         <ul>
           <li>Collaborated with team members to deliver critical features on time</li>
-          <li>Front-end performance optimizations, including a change that increased speed by 1000%</li>
+          <li>Front-end performance optimizations, including a change that increased speed by 10x</li>
           <li>Additional improvements with performance boosts of up to 3x in critical areas</li>
         </ul>
 
@@ -112,23 +99,23 @@
           <li>Streamlined service layer to improve database interaction and simplify data handling for consumers</li>
           <li>Collaborated on solutions to reduce service layer complexity, including adding instrumentation for monitoring and leveraging APIs to optimize data flow</li>
           <li>Brainstormed and mapped strategies to reduce surface area, enhancing maintainability and easing consumer adoption</li>
-          <li>Documented all implemented solutions, including detailed diagrams, code snippets, pull requests, and explanations. Also created documentation for potential future improvements to support long-term architectural enhancements.</li>
+          <li>Documented all implemented solutions, including detailed diagrams, code snippets, pull requests, and explanations. Also created documentation for potential future improvements to support long-term architectural enhancements</li>
 
         </ul>
       </div>
 
       <div class="experience-item">
         <div class="experience-header">
-          <div class="company">Derivco Cape Town</div>
-          <div class="dates">January 2020 – June 2022</div>
+          <div class="company">Derivco Cape Town - Game Engine Team</div>
+          <div class="dates">January 2020 - June 2022</div>
         </div>
         <div class="location">Cape Town, South Africa</div>
         <p>Head-hunted for the game engine team at Derivco Cape Town to create and maintain a framework used to develop web based games by studios around the world.</p>
         <ul>
-          <li>Maintained a Typescript WebGL renderer used to display graphics on a wide variety of devices</li>
+          <li>Maintained TypeScript WebGL renderer; sustained 60 FPS on mid-tier devices</li>
           <li>Worked directly with clients to assist with support issues and feature implementation</li>
           <li>Developed standalone tools with VueJS and Electron to maximize the speed and ease of game development</li>
-          <li>Personally mitigated multiple highest priority issues reported by clients</li>
+          <li>Personally mitigated multiple P0/P1 issues reported by external studios</li>
         </ul>
       </div>
 
@@ -138,7 +125,7 @@
           <div class="dates">May 2019 - January 2020</div>
         </div>
         <div class="location">Cape Town, South Africa</div>
-        <p>Joined a tech startup called FundStream as a full stack developer to work on a platform for managing insurance.</p>
+        <p>Joined a tech startup called FundStream as a full stack developer to work on a platform for managing insurance</p>
         <ul>
           <li>Co-developed two front end applications using Angular and Typescript</li>
           <li>Maintained multiple SQL Server databases hosted on Azure</li>
@@ -150,10 +137,10 @@
       <div class="experience-item">
         <div class="experience-header">
           <div class="company">Derivco Cape Town</div>
-          <div class="dates">July 2018 – May 2019</div>
+          <div class="dates">July 2018 - May 2019</div>
         </div>
         <div class="location">Cape Town, South Africa</div>
-        <p>Offered an internship at Derivco Cape Town as a web game developer.</p>
+        <p>Offered an internship at Derivco Cape Town as a web game developer</p>
         <ul>
           <li>Developed reusable components which control specific game features</li>
           <li>Created example applications which demonstrate various capabilities of a game engine</li>
@@ -164,12 +151,7 @@
       <div>
         <h3>Interests</h3>
         <div class="experience-item">
-          <ul>
-            <li>Playing drums</li>
-            <li>Gym</li>
-            <li>Spending time with family</li>
-            <li>Learning new skills</li>
-          </ul>
+          <p>Drums, gym, family, building rendering engines & AI tools</p>
         </div>
       </div>
     </div>
