@@ -1,0 +1,32 @@
+Sam is a full-stack engineer with 8 years. His game/graphics background gives strong performance instincts—shipped real-time UIs and 10x speed-ups. He recently built an AI document-intelligence tool that extracts entities & relationships and renders them as diagrams.
+
+
+Machine Learning Engineer & Technical Lead, Λrtefact South Africa | 2026-Present
+Leading an international team to build a platform which maps and optimizes business processes using GenAI.
+Built a video analysis platform which helps eliminate time-consuming manual review processes.
+
+Co‑founder & Engineer, Shiels.ai  | 2025-2026
+Co‑founded an AI lab focused on research and product development.
+Built tools for analyzing scientific literature
+Created Flewnt, a system that turns raw text into rich knowledge graphs. 
+Developed paper analysis platform for Dementia research.
+
+Software Engineer, SPAN Digital | 2022-2025
+Maintained and expanded a React-based knowledge system, built a real‑time editor, modernized the codebase, improved performance, and supported junior engineers.
+Delivered key features for an enterprise architecture tool, including major speed boosts and UI improvements, while collaborating closely with the team.
+Refactored a service layer for a large accounting firm, improving data flow, reducing complexity, adding monitoring, and documenting all solutions.
+
+Software Developer D1, Derivco Cape Town | 2020 - 2022
+Maintained a WebGL renderer.
+Built game-development tools which supported global studios.
+Resolved high‑priority issues for external clients working on web‑based game development.
+
+Software Developer, FundStream  | 2019 - 2020
+Built Angular apps, maintained Azure‑hosted databases and created ASP.NET APIs for insurance platforms.
+
+Software Developer Intern, Derivco Cape Town  | 2018 - 2019
+Built reusable game components, created demo apps, and helped QA diagnose and fix a wide range of issues.
+
+
+
+
